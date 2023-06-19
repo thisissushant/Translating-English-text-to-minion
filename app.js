@@ -9,4 +9,4 @@ function clickHandler(){
 
 };
 
-btnTranslate.addEventListener("click", function clickHandler)
+btnTranslate.addEventListener("click", function clickHandler())
