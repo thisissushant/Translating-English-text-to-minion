@@ -1,5 +1,5 @@
 #btn-translate{
-    background-color: orange;
+    background-color: black;
     color: white;
     border-radius: 2rem;
     font-size: large;
@@ -12,6 +12,8 @@
     margin: 1rem;
     display: block;
     padding: 1rem;
+    background-color: aqua;
+    
 }
 #output{
     border: 1px solid black;
@@ -19,7 +21,16 @@
     height: 10vh;
     margin: 1rem;
     padding: 1rem;  
+    display: block;
 }
 body{
-    background-color: aqua;
+    background-color: gold;
+}
+ body h1{
+    color: black;
+    text-align: center;
+ }
+footer{
+    text-align: center;
+    padding-top: 100px;
 }
