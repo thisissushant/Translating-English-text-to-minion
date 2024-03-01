@@ -1,36 +1,95 @@
-#btn-translate{
-    background-color: black;
-    color: white;
-    border-radius: 2rem;
-    font-size: large;
-    padding-left: 20px, 20px;
-    cursor: pointer;
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
+
+:root {
+  --primary-color: #f2c94c;
+  --black: #333333;
 }
-#txt-input{
-    width: 90%;
-    height: 10vh;
-    margin: 1rem;
-    display: block;
-    padding: 1rem;
-    background-color: aqua;
-    
+
+body {
+  margin: 0;
+  color: var(--black);
+  font-family: "Kalam", cursive;
 }
-#output{
-    border: 1px solid black;
-    width: 90%;
-    height: 10vh;
-    margin: 1rem;
-    padding: 1rem;  
-    display: block;
+
+header {
+  background-color: var(--primary-color);
+  text-align: center;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  border-bottom-left-radius: 5rem;
+  border-bottom-right-radius: 5rem;
 }
-body{
-    background-color: gold;
+
+p {
+  margin: 0;
 }
- body h1{
-    color: black;
-    text-align: center;
- }
-footer{
-    text-align: center;
-    padding-top: 100px;
+
+.input-btn-output-container {
+  max-width: 600px;
+  padding: 3rem 1rem 2.5rem;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .input-btn-output-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 75vh;
+  }
+}
+
+#input-area {
+  display: block;
+  font-family: inherit;
+  width: 100%;
+  font-size: 1.2rem;
+  height: 7rem;
+}
+
+#processing-btn {
+  margin: 1rem 0;
+  width: 15rem;
+  background-color: var(--primary-color);
+  padding: 1rem;
+  border: none;
+  font-family: inherit;
+  font-size: 1.25rem;
+}
+
+#output-area {
+  height: 5rem;
+  border: 1px solid var(--black);
+  padding: 2px;
+  width: 100%;
+  overflow-y: scroll;
+  word-wrap: break-word;
+  font-size: 1.2rem;
+}
+
+footer {
+  background-color: var(--primary-color);
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.1rem;
+  border-top-left-radius: 5rem;
+  border-top-right-radius: 5rem;
+}
+
+@media (min-width: 768px) {
+  footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+}
+
+footer h2 {
+  font-weight: unset;
+  margin: 0;
+}
+
+footer p {
+  max-width: 600px;
+  margin: auto;
 }

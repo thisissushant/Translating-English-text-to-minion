@@ -1,22 +1,35 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>banana speak</title>
-    <link href="style.css" rel="stylesheet"/>
-</head>
-<body>
-    <h1>Talk Banana</h1>
-    <textarea id="txt-input"
-    placeholder="Enter your text in English and you will get the banana translate">
-    </textarea>
-    <button id="btn-translate">Translate</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon.png" />
+    <title>Translating English text to minion</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>Minion</header>
 
-    <div style="font-size:larger;"><center>Output will come here</center></div>
-    <div id="output"></div>
-    <script src="app.js" type="text/javascript"></script>
-    <footer>Translation apps are great for many reasons, but for larger translation needs, partnering with a translation company is an excellent option. By working with an LSP, you can be certain that all of the intricate details of your translation are completely accurate and that your translation project is the best it can be With different interfaces, costs, and functionality, there are many options to consider when deciding on an app to meet your needs. Here are some of the best apps available to think about using, depending on your goals.<br> <h2>This App Is Design By Sushant And All Right Reserved.</h2></footer>
-</body>
+    <main class="input-btn-output-container">
+      <textarea
+        id="input-area"
+        placeholder="Put your message here which you want to convert to banana language"
+      ></textarea>
+      <button id="processing-btn">Translate To Banana</button>
+      <p>Translation will come here</p>
+      <div id="output-area"></div>
+    </main>
+    <footer>
+      <h2>about</h2>
+      <p>
+        The Minion Translator app is a delightful and entertaining way to
+        explore language and communication. Whether you're a fan of the
+        "Despicable Me" movies or just looking for a fun way to spice up your
+        conversations, the Minion Translator app is sure to bring a smile to
+        your face. Try it out today and start talking like a Minion!
+      </p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
 </html>
