@@ -1,6 +1,6 @@
 # Minion Translator
 
-This project is a simple web application that translates English text to Minion language. It is built using HTML, CSS, and JavaScript.
+This project is a simple web application that translates English text to Minion language. It is built using HTML, CSS, and JavaScript. This project uses the Fun Translation API to translate text
 
 ## Features
 
@@ -10,14 +10,13 @@ This project is a simple web application that translates English text to Minion 
 
 ## Demo
 
-You can view a live demo of the Minion Translator [here](#).
+You can view a live demo of the Minion Translator [Click Here](https://sushant-minion-translation.netlify.app/).
 
-## Getting Started
+## Usage
 
-To run the project locally, follow these steps:
+ follow these steps:
 
-1. Clone the repository:
+1. Enter the English text you want to translate into the input field.
+2. Click the "Translate" button to see the translated text in Minion language
 
-   ```bash
-   git clone https://github.com/your-username/minion-translator.git
-   ```
+  
